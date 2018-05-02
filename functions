@@ -1,0 +1,11 @@
+def jason_peek(weight,height,skin_tone,hair_color):    jason = {        'Weight':weight,        'Height':height,        'Skin_tone':skin_tone,        'Hair_color':hair_color,        }    return jason         jp = jason_peek ('120','5"9', 'White','Dirty Blonde')
+def display_jason(jason):    for key, value in jason.items():        print(key + " : "+ value)        print ("\n")        display_jason(jp)
+Questions = [] 
+print ( "Series of questions about Jason Peek")
+print 
+Question_1 = str(input("Is Jason Peek being mean?"))if Question_1 == "yes":    print "punch him"else:    print "Dont punch him"
+print 
+Question_2 = str(input("Is Jason Peek Smelly?"))if Question_2 == "yes":    print "Spray him with axe"else:    print "Still spray him with axe"
+new_list =[]
+print 
+Jason_breathe = str(input("Is Jason breathing?"))if Jason_breathe == "yes":    print "He is alive sadly"else:    print "He gonna die"    
